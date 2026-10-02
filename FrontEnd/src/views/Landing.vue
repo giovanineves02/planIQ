@@ -31,9 +31,9 @@
           </p>
 
           <div class="mt-2 flex flex-col gap-4 sm:flex-row">
-            <button
-              class="rounded-lg bg-[#4D84F5] px-6 py-3 text-sm font-semibold text-white transition-colors duration-200 hover:bg-[#3d6fdb]">
-              Entrar na plataforma
+            <button @click="irParaLogin"
+              class="cursor-pointer rounded-lg bg-[#4D84F5] px-6 py-3 text-sm font-semibold text-white transition-colors duration-200 hover:bg-[#3d6fdb]">
+              Entrar no Sistema
             </button>
             <button
               class="flex items-center justify-center gap-2 rounded-lg border border-[#233a6e] bg-transparent px-6 py-3 text-sm font-semibold text-white transition-colors duration-200 hover:border-[#4D84F5]">
@@ -121,8 +121,8 @@
         <h2 class="text-3xl font-bold text-white md:text-4xl">Pronto para transformar seus dados?</h2>
         <p class="mt-4 text-lg text-[#93B8FF]/70">Comece agora e veja o impacto dos insights inteligentes na sua tomada de decisão.</p>
         <div class="mt-8 flex justify-center">
-          <button
-            class="rounded-lg bg-[#4D84F5] px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-[#4D84F5]/30 transition-colors duration-200 hover:bg-[#3d6fdb]">
+          <button @click="irParaLogin"
+            class="cursor-pointer rounded-lg bg-[#4D84F5] px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-[#4D84F5]/30 transition-colors duration-200 hover:bg-[#3d6fdb]">
             Começar agora →
           </button>
         </div>
@@ -133,8 +133,15 @@
 </template>
 
 <script setup>
+import { useRouter } from 'vue-router'
 import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
+
+const router = useRouter()
+
+function irParaLogin() {
+  router.push('/login')
+}
 
 const stats = [
   { value: '14.832', label: 'Registros', progress: '75%', barColor: 'bg-[#4D84F5]' },
