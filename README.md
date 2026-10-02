@@ -1,6 +1,6 @@
-# CTI Insights (PlanIQ)
+#PlanIQ
 
-Sistema de importação e análise de planilhas, desenvolvido na disciplina Projeto CTI Insights.
+Sistema de importação e análise de planilhas, desenvolvido para projeto integrador 2° Semestre do curso de ADS.
 
 ## Objetivo da Sprint 2
 
@@ -54,8 +54,7 @@ a aplicação inicie sem depender de um PostgreSQL externo.
 ## Telas entregues
 
 | Tela | Rota | Descrição |
-| --- | --- | --- |
-| Home pública | `/` | Apresentação do CTI Insights, funcionalidades e botão "Entrar no Sistema". |
+| Home pública | `/` | Apresentação do PlanIQ, funcionalidades e botão "Entrar no Sistema". |
 | Login | `/login` | Formulário de e-mail e senha para simular o acesso (sem autenticação real). |
 | Dashboard | `/dashboard` | Cards de indicadores e gráfico de processamento com dados simulados. |
 | Upload | `/upload` | Seleção/arraste de planilha (XLSX, XLS, CSV), com resumo e pré-visualização. |
@@ -66,12 +65,12 @@ A navegação entre Dashboard, Upload e Relatórios é feita pela Sidebar, dispo
 
 ## Integrantes do grupo e responsabilidades
 
-> Preencher com os nomes dos integrantes e a responsabilidade de cada um nesta entrega.
+
 
 | Integrante | Responsabilidade |
-| --- | --- |
-| — | — |
+| Giovani Neves |Desenvolvedor Full stack|
+| Caio Gabriel | Desenvolvedor Full stack|
+| Pedro Henrique | Desenvolvedor Full stack|
+| Beatriz Camillo | Desenvolvedor Full stack|
+| Nicolas Miguel | Desenvolvedor Full stack|
 
-## Tag ou commit da entrega
-
-> Preencher com a tag (ex.: `sprint-2`) ou o hash do commit correspondente a esta entrega.
