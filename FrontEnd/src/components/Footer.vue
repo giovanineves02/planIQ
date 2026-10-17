@@ -2,11 +2,11 @@
   <footer class="bg-transparent px-4 py-8 text-[#0051ff] md:px-12">
     <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 md:flex-row">
       <p class="text-center text-base text-[#6e8dce]">
-        &copy; 2023 SOFTPLAN. Todos os direitos reservados.
+        &copy; 2026 PlanIQ. Todos os direitos reservados.
       </p>
 
       <div class="flex items-center gap-4">
-        <a :href="instagramUrl" target="_blank" rel="noopener noreferrer" aria-label="Instagram da SOFTPLAN"
+        <a :href="instagramUrl" target="_blank" rel="noopener noreferrer" aria-label="Instagram da PlanIQ"
           class="rounded-lg p-1 text-[#6e8dce] transition-colors duration-200 hover:text-[#22D3EE]">
           <svg aria-hidden="true" class="h-8 w-8" viewBox="0 0 24 24" fill="none" stroke="currentColor"
             stroke-width="1.8">
@@ -16,7 +16,7 @@
           </svg>
         </a>
 
-        <a :href="whatsappUrl" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp da SOFTPLAN"
+        <a :href="whatsappUrl" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp da PlanIQ"
           class="rounded-lg p-1 text-[#6e8dce] transition-colors duration-200 hover:text-[#22D3EE]">
           <svg aria-hidden="true" class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor">
             <path

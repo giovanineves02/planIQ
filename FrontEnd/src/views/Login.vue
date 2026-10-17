@@ -28,9 +28,9 @@ function voltarParaLanding() {
     <div class="relative z-10 flex h-[64px] items-center justify-between max-w-[1152px] w-full mx-auto px-[24px]">
       <!-- Logo -->
       <div class="flex gap-[12px] items-center">
-        <img :src="logo" alt="Logo SOFTPLAN" class="h-10 w-10 rounded-md object-cover" />
+        <img :src="logo" alt="Logo PlanIQ" class="h-10 w-10 rounded-md object-cover" />
         <p class="font-bold text-white whitespace-nowrap">
-          <span>SOFT</span><span class="text-[#22d3ee]">PLAN</span>
+          <span>Plan</span><span class="text-[#22d3ee]">IQ</span>
         </p>
       </div>
 
@@ -51,13 +51,13 @@ function voltarParaLanding() {
       >
         <!-- Logo -->
         <div class="flex items-start justify-center w-full">
-          <img :src="logo" alt="Logo SOFTPLAN" class="h-14 w-14 rounded-md object-cover" />
+          <img :src="logo" alt="Logo PlanIQ" class="h-14 w-14 rounded-md object-cover" />
         </div>
 
         <!-- Heading -->
         <div class="flex flex-col h-[66px] items-center pt-[24px] w-full">
           <p class="font-bold leading-[42px] text-[#e8f0fe] text-[28px] text-center whitespace-nowrap w-full">
-            Acesse o SOFTPLAN
+            Acesse o PlanIQ
           </p>
         </div>
 
@@ -114,9 +114,9 @@ function voltarParaLanding() {
     <!-- Footer -->
     <div class="relative z-10 border-t border-[rgba(37,99,235,0.15)] flex flex-col items-center px-[24px] py-[32px] w-full">
       <div class="flex gap-[10px] items-center justify-center w-full">
-        <img :src="logo" alt="Logo SOFTPLAN" class="h-6 w-6 rounded-md object-cover" />
+        <img :src="logo" alt="Logo PlanIQ" class="h-6 w-6 rounded-md object-cover" />
         <p class="font-bold text-center text-white whitespace-nowrap">
-          <span>SOFT</span><span class="text-[#22d3ee]">PLAN</span>
+          <span>Plan</span><span class="text-[#22d3ee]">IQ</span>
         </p>
       </div>
       <p
