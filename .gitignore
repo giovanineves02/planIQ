@@ -1,0 +1,12 @@
+# Dependências e builds
+node_modules/
+dist/
+.vite/
+
+# Back-End (Maven)
+target/
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.idea/
